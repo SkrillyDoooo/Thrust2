@@ -27,18 +27,7 @@ Z = Activate/Deactivate dampers (dampers will counter-act ship's forces making i
 Scroll wheel = zoom in and out on map  
 
 
-## Short Term To-Dos:
+## GravGrid:
+- Check out the GravGridBuilder.cs to see the root of the implemetation. It's a bit of a mess due to major feature sprint to get infinite grid and the tessalation working. Planning to clean this up later. The basic job loop can be found in the Update function
 
-- camera should animate/follow the ship
-- camera should animate/zoom out as the ship increases velocity
 
-## Bigger To-Dos:
-- orbital mechanics for planet and ship interactions
-- orbital mechanics for planet-planet, planet-moon, star-planet, intertactions???
-	- maybe some way to "fake" this as the math and physics are overly complicated for capturing the feeling desired here
-- start planet-side 2D sidescrolling ship controls
-- start planet-side 2D sidescrolling character controls
-
-## Biggest To-Dos:
-- space to planet-side transistion
--- this is the biggest techinical challenge. How do we seamlessly load an entire 2D level? How do we seamlessly transtition to planet-side 2D sidescrolling controls? visually speaking, how do we transition seamlessly to the space view to this side scrolling view in a convincing way. it would be cool to see the horizon of the planet as the ship descends planet-side
